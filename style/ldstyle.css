@@ -1,7 +1,7 @@
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: #626364;
   }
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
@@ -9,18 +9,10 @@ body {
     background-color: #1abc9c; /* Green */
     color: #ffffff;
   }
-  .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
+  .bold {
+    font-weight: bold;
   }
-  .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
-  }
+  
   .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -38,6 +30,10 @@ body {
     color: #1abc9c !important;
   }
 
+  .navbar h3 {
+    color: #2b2a2a;
+  }
+
   /* LD landing CSS */
 description {
 	left: 50%;
@@ -47,10 +43,14 @@ description {
 	text-align: center;
 }
 .description h2 {
-	color: #6ab446;
+	color: #1abc9c;
 }
 .description p {
 	color: #b03333;
 	font-size: 1.3rem;
 	line-height: 1.5;
+}
+
+.condensedlines {              
+  line-height: 20px;  /* try also a bit smaller line-height */
 }
